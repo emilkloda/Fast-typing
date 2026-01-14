@@ -1,0 +1,5 @@
+{
+  "name": "QuickKeys: Speed Typing Challenge",
+  "description": "A fast-paced typing game where you must press 30 characters as quickly as possible. Every mistake adds a 1-second penalty to your total score. Track your time and aim for the lowest score!",
+  "requestFramePermissions": []
+}
