@@ -2,10 +2,11 @@
   "name": "quickkeys:-speed-typing-challenge",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://emil.kloda.github.io/Fast-typing/",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build --base=/Fast-typing/",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,5 +18,10 @@
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
-  }
+  },
+  "scripts": {
+  "build": "vite build --base=/Fast-typing/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
 }
