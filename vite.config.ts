@@ -7,5 +7,5 @@ import react from '@vitejs/plugin-react' // lub inny plugin, którego używasz
 
 export default defineConfig({
   plugins: [react()],
-  base: '/nazwa-twojego-repozytorium/', // WAŻNE: musi zaczynać się i kończyć slashem
+  base: '/Fast-typing/',
 })
