@@ -2,7 +2,7 @@ name: Deploy Vite App
 
 on:
   push:
-    branches: ["main"] # upewnij się, że Twoja główna gałąź to main (nie master)
+    branches: ["main", "master"] # upewnij się, że Twoja główna gałąź to main (nie master)
 
 permissions:
   contents: read
